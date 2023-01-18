@@ -374,6 +374,19 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
 
 /* =======================================Portfolio=========================================== */
 .first-section {
