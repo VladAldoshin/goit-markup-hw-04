@@ -151,7 +151,7 @@ body {
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7) ;, rgba(46, 47, 66, 0.7))
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/images-web-studio/people_office.jpg);
   background-size: cover;
 }
@@ -221,6 +221,9 @@ body {
   margin-right: 24px;
 }
 .thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #f4f4fd;
   border-radius: 4px;
   width: 264px;
@@ -304,6 +307,26 @@ body {
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
+/* ===================================Fifth section========================================= */
+.fifth-section {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+.customers-item {
+  width: calc((100%-120px)-6);
+}
+.customers-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: block;
+}
+
 /* ==========================================Footer========================================= */
 
 .footer-page {
