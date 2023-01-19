@@ -297,7 +297,8 @@ body {
 }
 
 .team-item {
-  flex-basis: calc(100%-72px / 4);
+  flex-basis: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-position {
@@ -325,6 +326,12 @@ body {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+.social-list-link:hover,
+.social-list-link:focus {background-color: #404BBF;}
+
+.social-list-icon:hover,
+.social-list-icon:focus {fill: #F4F4FD;}
+
 /* ===================================Fifth section========================================= */
 .fifth-section {
   padding-top: 130px;
@@ -364,10 +371,9 @@ body {
   padding-bottom: 16px;
   padding-left: 16px;
 }
-.customers-icon:hover,
-.customers-icon:focus {
-  fill: #404bbf;
-}
+.customers-link:hover,
+.customers-link:focus {background-color:  #404BBF ;}
+
 
 /* ==========================================Footer========================================= */
 
@@ -417,6 +423,8 @@ body {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
+.footer-social-list-link:hover,
+.footer-social-list-link:focus{background-color: green;}
 
 /* =======================================Portfolio=========================================== */
 .first-section {
@@ -434,7 +442,7 @@ body {
 .portfolio-button {
   min-width: 116px;
   min-height: 48px;
-  padding: 12px, 24px, 12px, 24px;
+  padding: 12px 24px 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   font-weight: 500;
@@ -449,6 +457,8 @@ body {
 .portfolio-button:hover {
   color: #ffffff;
   background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px transparent;
 }
 .portfolio-button:focus,
 .portfolio-button:active {
@@ -461,7 +471,7 @@ body {
 .portfolio-second-button {
   min-width: 78px;
   min-height: 48px;
-  padding: 12px, 24px, 12px, 24px;
+  padding: 12px 24px 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   font-weight: 500;
@@ -476,6 +486,8 @@ body {
 .portfolio-second-button:hover {
   color: #ffffff;
   background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px transparent;
 }
 .portfolio-second-button:focus,
 .portfolio-second-button:active {
@@ -492,10 +504,13 @@ body {
   row-gap: 48px;
   column-gap: 24px;
 }
+.portfolio-menu-link{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
 .portfolio-menu-item {
   flex-basis: calc(100%-48px / 3);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+.portfolio-menu-item {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
 .card-content {
   padding-top: 32px;
