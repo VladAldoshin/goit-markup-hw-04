@@ -297,7 +297,8 @@ body {
 }
 
 .team-item {
-  flex-basis: calc(100%-72px / 4);
+  flex-basis: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-position {
@@ -325,6 +326,12 @@ body {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
+.social-list-link:hover,
+.social-list-link:focus {background-color: #404BBF;}
+
+.social-list-icon:hover,
+.social-list-icon:focus {fill: #F4F4FD;}
+
 /* ===================================Fifth section========================================= */
 .fifth-section {
   padding-top: 130px;
@@ -364,10 +371,7 @@ body {
   padding-bottom: 16px;
   padding-left: 16px;
 }
-.customers-icon:hover,
-.customers-icon:focus {
-  fill: #404bbf;
-}
+
 
 /* ==========================================Footer========================================= */
 
@@ -417,6 +421,8 @@ body {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
+.footer-social-list-link:hover,
+.footer-social-list-link:focus{background-color: green;}
 
 /* =======================================Portfolio=========================================== */
 .first-section {
@@ -495,7 +501,9 @@ body {
 
 .portfolio-menu-item {
   flex-basis: calc(100%-48px / 3);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+.portfolio-menu-item {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
 .card-content {
   padding-top: 32px;
