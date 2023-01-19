@@ -325,12 +325,11 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  fill: #F4F4FD;
 }
-.social-list-link:hover,
-.social-list-link:focus {background-color: #404BBF;}
 
 .social-list-icon:hover,
-.social-list-icon:focus {fill: #F4F4FD;}
+.social-list-icon:focus {fill: #F4F4FD; background-color: #404BBF;}
 
 /* ===================================Fifth section========================================= */
 .fifth-section {
@@ -371,6 +370,11 @@ body {
   padding-bottom: 16px;
   padding-left: 16px;
 }
+
+.customers-link{fill: #8E8F99}
+
+.customers-link:hover,
+.customers-link:focus{fill: #404BBF;}
 
 
 
@@ -421,6 +425,7 @@ body {
   height: 40px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
 }
 .footer-social-list-link:hover,
 .footer-social-list-link:focus{background-color: green;}
